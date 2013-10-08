@@ -11,6 +11,8 @@
 #
 
 class Post < ActiveRecord::Base
+  has_many :comments, dependent: :destroy
+
   attr_accessible :content, :name, :title
 
   validates :name, presence: true
