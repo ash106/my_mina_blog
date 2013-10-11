@@ -12,9 +12,9 @@
     </div>
   <% end %>
 
-  <%= f.input :name %>
-  <%= f.input :title %>
-  <%= f.input :content %>
+  <%= f.input :name, placeholder: 'John Smith' %>
+  <%= f.input :title, placeholder: 'Blog Title Goes Here' %>
+  <%= f.input :content, placeholder: 'This is my great new blog post.' %>
   <h2>Tags</h2>
   <%= render :partial => 'tags/form',
               :locals => { :form => f } %>

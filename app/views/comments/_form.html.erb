@@ -1,5 +1,5 @@
 <%= simple_form_for [@post, @post.comments.build] do |f| %>
-  <%= f.input :commenter %>
-  <%= f.input :body %>
+  <%= f.input :commenter, label: 'Name', placeholder: 'John Smith' %>
+  <%= f.input :body, label: 'Comment', placeholder: 'A great comment about this great blog post' %>
   <%= f.button :submit %>
 <% end %>
