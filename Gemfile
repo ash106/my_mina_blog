@@ -30,6 +30,8 @@ gem 'jquery-rails'
 
 gem 'annotate', ">=2.5.0"
 
+gem 'simple_form'
+
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
